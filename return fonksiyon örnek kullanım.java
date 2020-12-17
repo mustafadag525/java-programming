@@ -12,7 +12,7 @@ import java.util.spi.AbstractResourceBundleProvider;
 public class Main
 {
 
-   public static int ikiçarp(int a)
+   public static int ikiÃ§arp(int a)
    {
        return a*2;
    }
@@ -20,7 +20,7 @@ public class Main
    {
        return a+2;
    }
-   public static int dortçarp(int a)
+   public static int dortÃ§arp(int a)
    {
 
        return a*4;
@@ -28,8 +28,8 @@ public class Main
 
     public static void main(String[] args) {
 
-       dortçarp(ikiyletopla(ikiçarp(10)));
-        System.out.println("degerr: "+       dortçarp(ikiyletopla(ikiçarp(1))));
+       dortÃ§arp(ikiyletopla(ikiÃ§arp(10)));
+        System.out.println("degerr: "+       dortÃ§arp(ikiyletopla(ikiÃ§arp(1))));
 
 
 
