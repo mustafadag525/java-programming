@@ -11,19 +11,19 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("sayý gir: ");
-        int sayý=scanner.nextInt();i
+        System.out.println("sayÃ½ gir: ");
+        int sayÃ½=scanner.nextInt();i
         System.out.println("basamak: ");
-        int bas_sayýsý=scanner.nextInt();
+        int bas_sayÃ½sÃ½=scanner.nextInt();
         int toplam=0;
-        int gecic=sayý;
+        int gecic=sayÃ½;
         do {
             int bas_degeri=gecic%10;
             gecic/=10;
-            toplam+=Math.pow(bas_degeri,bas_sayýsý);
+            toplam+=Math.pow(bas_degeri,bas_sayÃ½sÃ½);
 
         }while (gecic>0);
-        if(sayý==toplam)
+        if(sayÃ½==toplam)
         {
             System.out.println("armstrong");
         }
